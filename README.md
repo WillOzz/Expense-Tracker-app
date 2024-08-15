@@ -16,4 +16,4 @@ To run this project on your local machine, follow these steps:
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/YourUsername/flutter-expense-tracker-app.git
+   git clone [https://github.com/YourUsername/flutter-expense-tracker-app.git](https://github.com/WillOzz/Expense-Tracker-app-Mobile-designed-.git)
