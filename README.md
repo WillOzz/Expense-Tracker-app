@@ -1,16 +1,19 @@
-# expense_tracker_app
+# Flutter Expense Tracker App
 
-A new Flutter project.
+This is a powerful and user-friendly expense tracker application built using Flutter. The app allows users to keep track of their daily expenses, add or delete transactions, and view their expenses in various ways for better financial management.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Add Expenses**: Easily add new expenses with relevant details such as amount, category, and date.
+- **Delete Expenses**: Remove expenses from your list with a simple tap.
+- **Multiple Views**: View your expenses in different formats such as daily, weekly, or monthly breakdowns.
+- **User-Friendly Interface**: Intuitive and easy-to-use design that simplifies managing your finances.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To run this project on your local machine, follow these steps:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository**:
+
+   ```sh
+   git clone [https://github.com/YourUsername/flutter-expense-tracker-app.git](https://github.com/WillOzz/Expense-Tracker-app-Mobile-designed-.git)
