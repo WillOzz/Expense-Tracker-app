@@ -101,21 +101,25 @@ class _NewExpenseState extends State<NewExpense> {
               child: Column(
                 children: [
                   if (width >= 600)
-                    Expanded(
+                    Container(
+                      width: double.infinity,
                       child: Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          TextField(
-                            controller: _titleController,
-                            maxLength: 50,
-                            decoration: const InputDecoration(
-                              label: Text('title'),
+                           Expanded(
+                            child: TextField(
+                              controller: _titleController,
+                              maxLength: 50,
+                              decoration: const InputDecoration(
+                                label: Text('title'),
+                              ),
                             ),
                           ),
                           const SizedBox(
                             width: 24,
                           ),
-                          Expanded(
+                          SizedBox(
+                            width: 100,
                             child: TextField(
                               controller: _amountController,
                               maxLength: 10,
@@ -126,7 +130,8 @@ class _NewExpenseState extends State<NewExpense> {
                               ),
                             ),
                           ),
-                        ],
+                       
+                          ],
                       ),
                     )
                   else
